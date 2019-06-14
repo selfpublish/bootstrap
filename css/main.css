@@ -1,0 +1,77 @@
+.solutions > .row > div {
+  background-color: #222;
+  margin: 20px;
+}
+.solutions > .row > div > .row {
+  min-height: 80%;
+  width: 100%;
+  margin: 0;
+}
+.solutions > .row > div > .row > div {
+  background-color: #ec927b;
+  min-height: 40%;
+}
+.form-group {
+  background-color: #ec927b;
+}
+.solutions > .row > div > .row > div:nth-child(2) {
+  background-color: tomato;
+  min-height: 40%;
+}
+.form-group:nth-child(2) {
+  background-color: tomato;
+}
+.solutions > .row > div > .row > div:nth-child(3) {
+  background-color: #e897c6;
+  min-height: 40%;
+}
+.form-group:nth-child(3) {
+  background-color: #e897c6;
+}
+.solutions > .row > div > .row > div:nth-child(4) {
+  background-color: #c29df0;
+  min-height: 40%;
+}
+.form-group:nth-child(4) {
+  background-color: #c29df0;
+}
+.solutions > .row > div > .row > div:nth-child(5) {
+  background-color: #7faaff;
+  min-height: 40%;
+}
+.form-group:nth-child(5) {
+  background-color: #7faaff;
+}
+.solutions > .row > div > .row > div:nth-child(6) {
+  background-color: #9fd3f4;
+  min-height: 40%;
+}
+.form-group:nth-child(6) {
+  background-color: #9fd3f4;
+}
+.solutions > .row > .xs {
+  min-height: 200px;
+  width: 140px;
+}
+.solutions > .row > .sm {
+  min-height: 280px;
+  width: 220px;
+}
+.solutions > .row > .md {
+  min-height: 320px;
+  width: 360px;
+}
+.solutions > .row > .lg {
+  min-height: 360px;
+  min-width: 440px;
+}
+.solutions > .row > .xl {
+  min-height: 400px;
+  min-width: 540px;
+}
+.form-group > * {
+  display: inline-block;
+}
+.form-group .form-control {
+  max-width: 70%;
+}

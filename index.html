@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div class="container px-5 py-5 text-center">
+  <h1>Bootstrap 4 Grid System Previewer</h1>
+  <p class="px-sm-5 pt-3">Please note, this tool is meant for previewing the layout for Bootstrap grid columns. While it does support the "xs" column specification, this is a carry-over from Bootstrap 3 and is no longer required. It now supports Bootstrap's "mx-auto", "mr-auto", and "ml-auto" for positioning, although grid-system support for these classes (e.g. "ml-md-auto") has not yet been enabled.<br><br>You should see colored boxes representing the layout of the given divs in the respective screen size categories below. If any or all of the boxes remain empty, you have entered an invalid column class.</p>
+  <h6 class="px-sm-5 pt-4">As an example, try entering "col-12 col-md-6 col-xl-3" in the first input field<br> and "col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4" in the second.</h6>
+</div>
+
+<div class="container text-center text-white pt-5">
+  <form>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div1" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div2" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div3" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div4" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div5" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <div class="form-group">
+    	<label>&ltdiv class='</label>
+      	<input type="text" class="form-control" id="div6" placeholder="eg. col-12 col-md-6 col-xl-4">
+      	<label>'&gt</label>
+    </div>
+    <button type="button" onclick="interpret()" class="btn btn-primary w-25 mx-auto">Submit</button>
+    <button type="button" onclick="clearAll()" class="btn btn-danger w-25 mx-auto">Clear</button>
+  </form>
+</div>
+
+<div class="solutions container-fluid py-5">
+  	<div class="row">
+	    <div class="xs ml-auto mr-sm-5">
+	    	<h6 class="text-center text-white">xs</h6>
+	    	<div class="row"></div>
+	    </div>
+	    <div class="sm mr-auto ml-sm-5">
+	    	<h6 class="text-center text-white">sm</h6>
+	    	<div class="row"></div>
+	    </div>
+    </div>
+    <div class="row">
+	    <div class="md mx-auto mx-lg-0 ml-lg-auto mr-lg-4">
+	    	<h6 class="text-center text-white">md</h6>
+	    	<div class="row"></div>
+	    </div>
+	    <div class="lg mx-auto mx-lg-0 mr-lg-auto ml-lg-4">
+	    	<h6 class="text-center text-white">lg</h6>
+	    	<div class="row"></div>
+	    </div>
+    </div>
+    <div class="row">
+	    <div class="xl mx-auto">
+	    	<h6 class="text-center text-white">xl</h6>
+	    	<div class="row"></div>
+	    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Scripts -->
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- Vue -->
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Custom script -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
