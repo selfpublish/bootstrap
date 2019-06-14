@@ -1,108 +1,193 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="css/main.css">
+https://
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <!--
+_____       _ __          __   _ _
+|  __ \     | |\ \        / /  (_) |
+| |__) |   _| |_\ \  /\  / / __ _| |_ ___ _ __
+|  ___/ | | | '_ \ \/  \/ / '__| | __/ _ \ '__|
+| |   | |_| | |_) \  /\  /| |  | | ||  __/ |
+|_|    \__,_|_.__/ \/  \/ |_|  |_|\__\___|_|
+-->
+  <head>
+    <title>A Bootstrap Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Pubwriter Web Canvas"
+      content="<?php echo $this->metaKeywords() ?>"
+    />
+    <meta
+      name="Built with PubWriter -  One Click Publishing"
+      content="<?php echo $this->metaDescription() ?>"
+    />
 
-</head>
-<body>
+    <!--Bootstrap 4-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<div class="container px-5 py-5 text-center">
-  <h1>Bootstrap 4 Grid System Previewer</h1>
-  <p class="px-sm-5 pt-3">Please note, this tool is meant for previewing the layout for Bootstrap grid columns. While it does support the "xs" column specification, this is a carry-over from Bootstrap 3 and is no longer required. It now supports Bootstrap's "mx-auto", "mr-auto", and "ml-auto" for positioning, although grid-system support for these classes (e.g. "ml-md-auto") has not yet been enabled.<br><br>You should see colored boxes representing the layout of the given divs in the respective screen size categories below. If any or all of the boxes remain empty, you have entered an invalid column class.</p>
-  <h6 class="px-sm-5 pt-4">As an example, try entering "col-12 col-md-6 col-xl-3" in the first input field<br> and "col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4" in the second.</h6>
-</div>
+    <!--Pubwriter CSS-->
+    <link rel="stylesheet" type="text/css" href="/css/pw.css" />
+    <!--Customization File-->
+    <link
+      id="stylesheet"
+      rel="stylesheet"
+      type="text/css"
+      href="/css/realtor.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="/" class="navbar-brand h1 mb-0">
+          <!-- <img src="/images/logo-ex-7.png" width="30" height="" alt="" class="d-inline-block align-top"> -->
+          <div>
+            <span style="color:#ff748d;">B</span
+            ><span style="color:#fd9689;">l</span
+            ><span style="color:#fab884;">u</span
+            ><span style="color:#f8da80;">e</span
+            ><span style="color:#e7ada6;">b</span
+            ><span style="color:#d681cd;">e</span
+            ><span style="color:#c554f3;">r</span
+            ><span style="color:#a85df3;">r</span
+            ><span style="color:#8c66f4;">y</span
+            ><span style="color:#6f6ff4;">M</span
+            ><span style="color:#8568f4;">u</span
+            ><span style="color:#9a62f4;">f</span
+            ><span style="color:#b05bf3;">f</span
+            ><span style="color:#c554f3;">i</span
+            ><span style="color:#d681cd;">n</span
+            ><span style="color:#e7ada6;">s</span
+            ><span style="color:#f8da80;">.</span
+            ><span style="color:#fab884;">o</span
+            ><span style="color:#fd9689;">r</span
+            ><span style="color:#ff748d;">g</span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class="container text-center text-white pt-5">
-  <form>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div1" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Purchase
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item" href="https://amzn.to/2If4Wzy"
+                  >Full Color Illustrated Edition</a
+                >
+                <a class="dropdown-item" href="https://amzn.to/2DhYGTN"
+                  >Original Paperback</a
+                >
+                <a class="dropdown-item" href="https://amzn.to/2KGZSGe"
+                  >Kindle edition (illustrated)</a
+                >
+                <a class="dropdown-item" href="https://amzn.to/2IEgQm2"
+                  >Audiobook</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item" href="about.md">The Authors</a>
+                <a class="dropdown-item" href="art.md">Illustrations</a>
+                <a class="dropdown-item" href="dedication.md">Dedication</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="soundtrack.md" class="nav-link"
+                ><i class="fa fa-spotify fa-lg"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://amzn.to/2VpIHtl" class="nav-link"
+                >Buy on Amazon</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="reviews.md" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="music.md" class="nav-link">Original Music</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.md" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+    <video autoplay loop id="video-background" muted>
+      <source src="https://video.pubwriter.com/space.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container">
+      <div class="pubwriter"></div>
     </div>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div2" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
-    </div>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div3" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
-    </div>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div4" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
-    </div>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div5" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
-    </div>
-    <div class="form-group">
-    	<label>&ltdiv class='</label>
-      	<input type="text" class="form-control" id="div6" placeholder="eg. col-12 col-md-6 col-xl-4">
-      	<label>'&gt</label>
-    </div>
-    <button type="button" onclick="interpret()" class="btn btn-primary w-25 mx-auto">Submit</button>
-    <button type="button" onclick="clearAll()" class="btn btn-danger w-25 mx-auto">Clear</button>
-  </form>
-</div>
-
-<div class="solutions container-fluid py-5">
-  	<div class="row">
-	    <div class="xs ml-auto mr-sm-5">
-	    	<h6 class="text-center text-white">xs</h6>
-	    	<div class="row"></div>
-	    </div>
-	    <div class="sm mr-auto ml-sm-5">
-	    	<h6 class="text-center text-white">sm</h6>
-	    	<div class="row"></div>
-	    </div>
-    </div>
-    <div class="row">
-	    <div class="md mx-auto mx-lg-0 ml-lg-auto mr-lg-4">
-	    	<h6 class="text-center text-white">md</h6>
-	    	<div class="row"></div>
-	    </div>
-	    <div class="lg mx-auto mx-lg-0 mr-lg-auto ml-lg-4">
-	    	<h6 class="text-center text-white">lg</h6>
-	    	<div class="row"></div>
-	    </div>
-    </div>
-    <div class="row">
-	    <div class="xl mx-auto">
-	    	<h6 class="text-center text-white">xl</h6>
-	    	<div class="row"></div>
-	    </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Scripts -->
-	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<!-- popper -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<!-- Bootstrap -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<!-- Vue -->
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<!-- Custom script -->
-	<script type="text/javascript" src="js/main.js"></script>
-</body>
+  </body>
 </html>
