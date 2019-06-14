@@ -1,6 +1,5 @@
-https://
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <!--
 _____       _ __          __   _ _
 |  __ \     | |\ \        / /  (_) |
@@ -10,7 +9,8 @@ _____       _ __          __   _ _
 |_|    \__,_|_.__/ \/  \/ |_|  |_|\__\___|_|
 -->
   <head>
-    <title>A Bootstrap Template</title>
+    <!-- DO NOT EDIT -->
+    <!-- Header stuff -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="imagetoolbar" content="no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,7 +23,6 @@ _____       _ __          __   _ _
       name="Built with PubWriter -  One Click Publishing"
       content="<?php echo $this->metaDescription() ?>"
     />
-
     <!--Bootstrap 4-->
     <link
       rel="stylesheet"
@@ -54,6 +53,8 @@ _____       _ __          __   _ _
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!-- title in browser TAB -->
+    <title>CodeSLO | Robot</title>
     <!--Pubwriter CSS-->
     <link rel="stylesheet" type="text/css" href="/css/pw.css" />
     <!--Customization File-->
@@ -61,37 +62,15 @@ _____       _ __          __   _ _
       id="stylesheet"
       rel="stylesheet"
       type="text/css"
-      href="/css/realtor.css"
+      href="/css/custom.css"
     />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div class="container">
-        <a href="/" class="navbar-brand h1 mb-0">
-          <!-- <img src="/images/logo-ex-7.png" width="30" height="" alt="" class="d-inline-block align-top"> -->
-          <div>
-            <span style="color:#ff748d;">B</span
-            ><span style="color:#fd9689;">l</span
-            ><span style="color:#fab884;">u</span
-            ><span style="color:#f8da80;">e</span
-            ><span style="color:#e7ada6;">b</span
-            ><span style="color:#d681cd;">e</span
-            ><span style="color:#c554f3;">r</span
-            ><span style="color:#a85df3;">r</span
-            ><span style="color:#8c66f4;">y</span
-            ><span style="color:#6f6ff4;">M</span
-            ><span style="color:#8568f4;">u</span
-            ><span style="color:#9a62f4;">f</span
-            ><span style="color:#b05bf3;">f</span
-            ><span style="color:#c554f3;">i</span
-            ><span style="color:#d681cd;">n</span
-            ><span style="color:#e7ada6;">s</span
-            ><span style="color:#f8da80;">.</span
-            ><span style="color:#fab884;">o</span
-            ><span style="color:#fd9689;">r</span
-            ><span style="color:#ff748d;">g</span>
-          </div>
-        </a>
+        <!--Update Site Title (Navbar Left)-->
+
+        <a href="/" class="navbar-brand h1 mb-0">Pud Deters | Author</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -103,91 +82,35 @@ _____       _ __          __   _ _
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
+            <!-- Menu Items (Nav Bar Right)-->
             <li class="nav-item active">
               <a href="/" class="nav-link">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Purchase
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="https://amzn.to/2If4Wzy"
-                  >Full Color Illustrated Edition</a
-                >
-                <a class="dropdown-item" href="https://amzn.to/2DhYGTN"
-                  >Original Paperback</a
-                >
-                <a class="dropdown-item" href="https://amzn.to/2KGZSGe"
-                  >Kindle edition (illustrated)</a
-                >
-                <a class="dropdown-item" href="https://amzn.to/2IEgQm2"
-                  >Audiobook</a
-                >
-              </div>
+            <li class="nav-item active">
+              <a href="about.md" class="nav-link">About</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                About
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="about.md">The Authors</a>
-                <a class="dropdown-item" href="art.md">Illustrations</a>
-                <a class="dropdown-item" href="dedication.md">Dedication</a>
-              </div>
-            </li>
+
             <li class="nav-item">
-              <a href="soundtrack.md" class="nav-link"
-                ><i class="fa fa-spotify fa-lg"></i
+              <a href="https://amzn.to/2WpHhnE" class="nav-link"
+                ><i class="fa fa-amazon fa-lg"></i
               ></a>
-            </li>
-            <li class="nav-item">
-              <a href="https://amzn.to/2VpIHtl" class="nav-link"
-                >Buy on Amazon</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="reviews.md" class="nav-link">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a href="music.md" class="nav-link">Original Music</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.md" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+<h1>This is clean bootstrap template for github pages!</h1>
+<p>This is a paragraph.</p>
+<h2>This is heading 2</h2>
+<p>Some more text...</p>
 
-    <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
-    <video autoplay loop id="video-background" muted>
-      <source src="https://video.pubwriter.com/space.mp4" type="video/mp4" />
-    </video>
-
-    <div class="container">
-      <div class="pubwriter"></div>
     </div>
   </body>
 </html>
+<footer class="text-center">
+  <hr>
+  ★ Pud Deters | Author | Farmer ★
+  <br>
+  © <?php echo date("Y"); ?> <a href="http://www.PubWriter.com">Built with PubWriter</a>
+</footer>
+</body>
